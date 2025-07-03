@@ -7,11 +7,11 @@ import Link from "next/link";
 export default async function ProductPage({
   params,
 }: {
-  params: { productId: string };
+  params: Promise<{ productId: string }>;
 }) {
-  // Use params directly without awaiting
+  const productId = (await params).productId;
   const productDetails = products.find(
-    (product) => product.id.toString() === params.productId
+    (product) => product.id.toString() === productId
   );
 
   return (
@@ -22,7 +22,7 @@ export default async function ProductPage({
           <Link
             key={cat.id}
             className={`border p-2 border-white pl-6 text font-medium ${
-              cat.id.toString() === params.productId
+              cat.id.toString() === productId
                 ? "bg-green-500 rounded-lg text-white font-semibold"
                 : "hover:bg-green-100"
             }`}
