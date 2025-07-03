@@ -2,6 +2,7 @@ const products = [
   {
     id: 74158,
     name: "General Equipments",
+    image: "",
     seo_description:
       "A comprehensive range of general medical equipment vital for everyday healthcare needs. From adult diapers and air mattresses to autoclave sterilizers and CPAP machines, our collection supports patient comfort, hygiene, and medical procedures. Also featuring eye wash stations, first aid kits, height scales, infrared massagers, oxygen concentrators, waste bins, oxygen cylinders, radiology films, surgical head lights, and quality stethoscopes—ideal for clinics, hospitals, and home care.",
     products: [
@@ -81,6 +82,7 @@ const products = [
   {
     id: 36218,
     name: "Physiotherapy Equipments",
+    image: "",
     seo_description:
       "A wide array of physiotherapy equipment designed to assist in rehabilitation, pain relief, and physical therapy. Includes infrared heaters, nerve muscle stimulators, paraffin wax baths, patient lifters, quadriceps systems, portable shockwave devices, short-wave diathermy units, shoulder wheel systems, TENS massagers, traction beds and units, and electric treatment tables—all essential for physiotherapy clinics and hospitals.",
     products: [
@@ -154,6 +156,7 @@ const products = [
   {
     id: 58291,
     name: "Radiology & Imaging",
+    image: "",
     seo_description:
       "State-of-the-art radiology and imaging equipment including CT scanners, digital C-arm X-ray machines, mammography machines, MRI scanners, portable and mobile ultrasound scanners, radiology printers, and fixed and mobile radiography devices. Our collection supports accurate diagnostics and advanced imaging technology for hospitals and diagnostic centers.",
     products: [
@@ -217,6 +220,7 @@ const products = [
   {
     id: 62759,
     name: "ICU Equipments",
+    image: "",
     seo_description:
       "Essential ICU equipment to provide critical care and monitoring, including ambulatory BP machines, Holter ECG machines, ICU beds, infusion pumps, medicine trolleys, patient monitors, rise and fall stretchers, suction machines, and ventilators. Reliable tools to ensure continuous patient support and intensive care unit functionality.",
     products: [
@@ -275,6 +279,7 @@ const products = [
   {
     id: 90413,
     name: "Cardiology Equipments",
+    image: "",
     seo_description:
       "Advanced cardiology equipment including AED machines, cardiac monitors, ultrasound devices, defibrillator monitors, ECG machines, Holter ECGs, cardiology stethoscopes, portable cardiology ultrasounds, and TMT machines. Designed for accurate cardiac diagnosis and monitoring in clinics and hospitals.",
     products: [
@@ -330,6 +335,7 @@ const products = [
   {
     id: 19382,
     name: "Hospital Furnitures",
+    image: "",
     seo_description:
       "Wide range of hospital furniture including ambulance stretchers, hospital beds (manual and electric), donor chairs, dressing tables, electric wheelchairs, emergency stretchers, examination tables, folding stretchers, footsteps, linen carts, IV stands, medicine cabinets, overbed tables, ward screens, and wheelchairs — designed to enhance patient comfort and healthcare efficiency.",
     products: [
@@ -423,6 +429,7 @@ const products = [
   {
     id: 49076,
     name: "Gynecology Equipments",
+    image: "",
     seo_description:
       "Comprehensive gynecology equipment including colposcope machines, cryo surgery units, delivery beds, examination couches, fetal dopplers and monitors, surgical instruments, thermal printers and papers, and color doppler ultrasound systems for advanced women's healthcare.",
     products: [
@@ -481,6 +488,7 @@ const products = [
   {
     id: 21874,
     name: "Dental Equipments",
+    image: "",
     seo_description:
       "Extensive dental equipment including apex locators, autoclave machines, dental air compressors, dental cabinets, mobile and portable dental X-ray machines, dental units, endodontic motors, hand-piece sets, portable dental units, RVG sensors, and ultrasonic scalers for dental clinics and hospitals.",
     products: [
@@ -557,6 +565,7 @@ const products = [
   {
     id: 81345,
     name: "Operation Theater Equipments",
+    image: "",
     seo_description:
       "Comprehensive operation theater equipment including anesthesia machines, ceiling mount lights, electrosurgical units, operating microscopes, electric and manual OT tables, portable ventilators, surgical instruments, mobile theater lights, theater uniforms, and wall-mounted lights to ensure safe and efficient surgeries.",
     products: [
@@ -620,6 +629,7 @@ const products = [
   {
     id: 26783,
     name: "Opthalamic Equipments",
+    image: "",
     seo_description:
       "Specialized ophthalmology equipment including auto lensmeters, automated fundus cameras, digital visual acuity chart systems, manual phoropters, operating microscopes, refraction units, refracto-keratometers, retinoscope ophthalmoscope sets, slit lamps, and trial lens sets for comprehensive eye care.",
     products: [
@@ -680,6 +690,7 @@ const products = [
   {
     id: 74620,
     name: "Laboratory Equipment",
+    image: "",
     seo_description:
       "Equip your clinical and research laboratories with our comprehensive selection of laboratory equipment designed for accuracy, safety, and productivity. Our range includes high-precision analyzers, ovens, microscopes, centrifuges, incubators, and other essential lab devices. Whether you're performing complex diagnostics or routine experiments, our laboratory solutions ensure dependable performance and compliance with international standards, making them ideal for hospitals, academic labs, and medical testing centers.",
     products: [
