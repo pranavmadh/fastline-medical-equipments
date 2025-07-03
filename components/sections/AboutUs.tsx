@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
 import SectionHeader from "../ui/SectionHeader";
 import mainImage from "@/public/AboutUs.png";
 import subImage from "@/public/subimage.jpg";

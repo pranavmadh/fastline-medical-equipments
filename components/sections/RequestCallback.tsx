@@ -32,7 +32,8 @@ export default function RequestCallback() {
           <p className="text-lg text-gray-600 max-w-3xl">
             We&apos;re here to answer your questions, discuss your project, and
             help you find the best solutions for your medical equipment needs.
-            Reach out to us, and let's start building something great together.
+            Reach out to us, and let&apos;s start building something great
+            together.
           </p>
         </div>
 
