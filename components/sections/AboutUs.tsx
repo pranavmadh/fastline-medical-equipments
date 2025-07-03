@@ -4,15 +4,9 @@ import { useState } from "react";
 import SectionHeader from "../ui/SectionHeader";
 import mainImage from "@/public/AboutUs.png";
 import subImage from "@/public/subimage.jpg";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 function AccordionSection() {
-  const [activeSection, setActiveSection] = useState<string | null>("mission");
-
-  const toggleSection = (section: string) => {
-    setActiveSection(activeSection === section ? null : section);
-  };
-
   const accordionItems = [
     {
       id: "mission",

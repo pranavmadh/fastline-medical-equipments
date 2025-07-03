@@ -1,21 +1,7 @@
 import type { Metadata } from "next";
-import { Manrope, Poppins, Roboto, Geist } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "@/app/globals.css";
-import Header from "@/components/sections/Header";
 
-const roboto = Roboto({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-});
-
-const geist = Geist({
-  subsets: ["latin"],
-});
-
-const manRope = Manrope({
-  variable: "--font-manrope",
-  subsets: ["latin"],
-});
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],

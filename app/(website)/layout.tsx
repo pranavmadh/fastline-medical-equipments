@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Header from "@/components/sections/Header";
 import FooterComponent from "@/components/sections/FooterComponent";
 import whatsappLogo from "@/public/WhatsappLogo.png";

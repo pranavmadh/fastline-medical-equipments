@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import { Phone, Mail, Clock, MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -31,9 +30,9 @@ export default function RequestCallback() {
             Get in Touch with Our Team
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl">
-            We're here to answer your questions, discuss your project, and help
-            you find the best solutions for your medical equipment needs. Reach
-            out to us, and let's start building something great together.
+            We&apos;re here to answer your questions, discuss your project, and
+            help you find the best solutions for your medical equipment needs.
+            Reach out to us, and let's start building something great together.
           </p>
         </div>
 
@@ -42,12 +41,12 @@ export default function RequestCallback() {
           {/* Left - Form */}
           <div className="bg-white p-8 rounded-2xl shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-8">
-              Let’s Talk
+              Let&apos;s Talk
             </h3>
 
             {submitted ? (
               <div className="text-green-600 text-lg font-medium">
-                ✅ Thank you! We'll contact you soon.
+                ✅ Thank you! We&apos;ll contact you soon.
               </div>
             ) : (
               <form

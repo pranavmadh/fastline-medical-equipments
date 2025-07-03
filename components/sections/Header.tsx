@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import logo from "@/public/logo_png.png";
 import NavLink from "../ui/NavLink";
 import SearchIcon from "@/public/SearchIcon";
 import ExternalLink from "@/public/ExternalLink";
